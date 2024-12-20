@@ -56,7 +56,7 @@ def send_email(full_name, phone_number, email, message):
         # Your email credentials
         sender_email = ""
         sender_password = ""  # Use an App Password if using Gmail
-        receiver_email = "john.ndungu@dotrust.org"
+        receiver_email = ""
 
         # Create the email
         subject = f"Contact Form Submission from {full_name}"
