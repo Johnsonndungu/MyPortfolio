@@ -30,7 +30,7 @@ col1, col2 = st.columns(2, gap="large")
 
 with col1:
     # Load and process the image
-    image = Image.open("views/johnson.jpeg")
+    image = Image.open("mywebpage/views/johnson.jpeg")
     mask = Image.new("L", image.size, 0)
     draw = ImageDraw.Draw(mask)
     draw.ellipse((0, 0) + image.size, fill=255)
